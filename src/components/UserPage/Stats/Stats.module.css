@@ -1,0 +1,24 @@
+.gridСontainer {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  padding: 30px;
+  display: grid;
+  grid-template-areas: "post-1 post-2"  
+                       "post-3 post-3";
+  grid-template-rows: repeat(2, 350px);
+  grid-template-columns: repeat(2, 250px);
+  grid-gap: 40px;
+}
+.post1 {
+  grid-area: post-1;
+}
+
+
+.post2 {
+  grid-area: post-2;
+}
+
+.post3 {
+  grid-area: post-3;
+}
